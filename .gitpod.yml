@@ -1,3 +1,5 @@
 tasks:
 -   init: npm i
-    command: npm i -g @angular/cli
+    command: | 
+            npm i -g @angular/cli
+            ng serve
