@@ -1,3 +1,6 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - command: npm install -g @angular/cli
+  - command: |
+             npm install -g @angular/cli
+             ng v
+             ng serve
