@@ -5,11 +5,9 @@
       *ngFor="let i of [0, 1, 2]"
       [img]="postImg[i]"
       [text]="postTexts[i]"
-      [ngStyle]="
-        postImg[i] === 'https://ik.imagekit.io/2/photos/img/07.jpg' && {
-          width: '20px !important', cursor: 'pointer', height: '50px'
-        }
-      "
+      [ngClass]="{
+        'postImg-2': postImg[i] === 'https://ik.imagekit.io/2/photos/img/07.jpg'
+      }"
     ></app-image-card>
   </div>
   <app-proposals></app-proposals>
