@@ -1,5 +1,16 @@
 <app-header></app-header>
-<app-image-card [img]="postImg[0]" [text]="postTexts[0]"></app-image-card>
-<app-image-card [img]="postImg[1]" [text]="postTexts[1]"></app-image-card>
-<app-image-card [img]="postImg[2]" [text]="postTexts[2]"></app-image-card>
-<app-image-card [img]="postImg[3]" [text]="postTexts[3]"></app-image-card>
+<div class="flexrow">
+  <div class="container">
+    <app-image-card
+      *ngFor="let i of [0, 1, 2]"
+      [img]="postImg[i]"
+      [text]="postTexts[i]"
+      [ngStyle]="
+        postImg[i] === 'https://ik.imagekit.io/2/photos/img/07.jpg' && {
+          width: '20px !important', cursor: 'pointer', height: '50px'
+        }
+      "
+    ></app-image-card>
+  </div>
+  <app-proposals></app-proposals>
+</div>
