@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ImageCardComponent } from './image-card/image-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
+import { ProfileRowComponent } from './profile-row/profile-row.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ImageCardComponent,
-    ProposalsComponent
+    ProposalsComponent,
+    ProfileRowComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+.profile-row {
+  display: flex;
+  align-items: center;
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  .description  {
+    color: rgba($color: #000000, $alpha: 0.5);
+    font-size: 12px;
+  }
+}

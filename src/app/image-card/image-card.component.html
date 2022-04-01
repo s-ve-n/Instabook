@@ -1,5 +1,7 @@
 <div class="card">
-  <img src="{{ img }}" alt="" />
+  <img [ngClass]="{
+    'postImg-2': img == 'https://ik.imagekit.io/2/photos/img/07.jpg'
+  }" src="{{ img }}" alt="" />
 
   <p>{{ text }}</p>
 
