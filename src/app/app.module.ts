@@ -8,6 +8,7 @@ import { ImageCardComponent } from './image-card/image-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
 import { ProfileRowComponent } from './profile-row/profile-row.component';
 import { FriendboxComponent } from './friendbox/friendbox.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FriendboxComponent } from './friendbox/friendbox.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
