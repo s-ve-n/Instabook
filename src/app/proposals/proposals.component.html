@@ -1,9 +1,10 @@
-<div class="profile-row">
-  <img src="https://ik.imagekit.io/2/photos/img/01.jpg" />
-  <div>
-    <b>Bay</b><br />
-    <span class="description"> 3 years old </span>
-  </div>
+<app-profile-row></app-profile-row>
+<div class="margin-bottom-16">
+  <b>Friendsuggestions</b>
 </div>
-
-<b>Friendsuggestions</b>
+<app-profile-row
+  *ngFor="let i of [0, 1, 2]"
+  [name]="names[i]"
+  [description]="texts[i]"
+  [img]="images[i]"
+></app-profile-row>
