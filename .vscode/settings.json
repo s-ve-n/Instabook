@@ -1,3 +1,24 @@
 {
-    "workbench.colorTheme": "Gitpod Dark"
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "Cobalt2",
+  "redhat.telemetry.enabled": false,
+  "gitpod.openInStable.neverPrompt": true,
+  "workbench.startupEditor": "none",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.fontFamily": "Cascadia Code",
+  "workbench.editor.enablePreview": false,
+  "editor.fontSize": 13,
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.colorCustomizations": {
+    "terminalCursor.background": "#fff", //white background color
+    "terminalCursor.foreground": "#ffffff80", //transparent effect
+    "terminal.ansiBrightWhite": "#FFFFFF"
+  }
 }
