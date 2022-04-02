@@ -6,12 +6,14 @@
     width: 100%;
   }
   p {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 16px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.8);
   }
   button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     position: absolute;
     bottom: 0;
@@ -29,6 +31,13 @@
     }
     &:hover {
       background-color: rgba(0, 0, 0, 0.05);
+    }
+    mat-icon {
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
     }
   }
 }
